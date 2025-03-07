@@ -1,0 +1,41 @@
+# Build e dependências
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Configurações do Visual Studio e VS Code
+.vscode/
+*.suo
+*.user
+*.vcxproj.*
+*.db
+
+# Configurações do Rider e Resharper
+.idea/
+*.sln.iml
+
+# Arquivos gerados pelo NuGet
+*.nupkg
+project.lock.json
+packages/
+.nuget/
+
+# Configurações locais do usuário
+*.config
+*.env
+secrets.json
+
+# Logs e dumps
+*.log
+*.tlog
+*.bak
+*.dmp
+
+# Arquivos de teste
+TestResults/
+*.TestResults/
